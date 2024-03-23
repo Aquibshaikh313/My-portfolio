@@ -92,12 +92,12 @@ body {
 
 }
 @keyframes changetext{
-    0%{  content: "Maharashtra"; }
-    20%{  content: "Mumbai"; }
-    35%{  content: "PUne"; }
-    60%{  content: "Ajmer"; }
-    80%{  content: "AHmednagar"; }
-    100%{  content: "Maliwada"; }
+    0%{  content: "frontend Developer"; }
+    
+    35%{  content: "Web Developer"; }
+    60%{  content: "Mern stack Developer"; }
+    
+    100%{  content: "Full Stack Developer"; }
 }
 
 .home-content p {
