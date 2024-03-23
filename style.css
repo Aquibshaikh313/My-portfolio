@@ -85,6 +85,18 @@ body {
   font-weight: 700;
   color: #00abf0;
 }
+.change_content::after{
+  content:"";
+  animation: changetext 10s infinte linear;
+  color:#00abf0;
+}
+  @Keyframes changetext{
+     0%{  content: "frontend Developer"; }
+    60%{  content: "Web Developer"; }
+    80%{  content: "MERN Stack"; }
+    100%{  content: "Full Stack Developer"; }
+    
+  }
 
 .home-content p {
   font-size: 16px;
